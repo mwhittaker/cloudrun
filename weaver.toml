@@ -1,0 +1,5 @@
+[serviceweaver]
+binary = "./cloudrun"
+
+[multi]
+listeners.lis = {address = ":8080"}
