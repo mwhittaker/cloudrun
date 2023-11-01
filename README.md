@@ -5,7 +5,7 @@ First, create a Docker container and upload it to Artifact Registry according to
 [these instructions](https://cloud.google.com/run/docs/building/containers).
 
 ```shell
-$ docker build REGION-docker.pkg.dev/PROJECT_ID/REPO_NAME/PATH:TAG
+$ docker build -t REGION-docker.pkg.dev/PROJECT_ID/REPO_NAME/PATH:TAG .
 $ docker push REGION-docker.pkg.dev/PROJECT_ID/REPO_NAME/PATH:TAG
 ```
 
